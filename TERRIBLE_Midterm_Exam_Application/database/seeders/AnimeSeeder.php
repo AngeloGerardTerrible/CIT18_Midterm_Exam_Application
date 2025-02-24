@@ -7,15 +7,12 @@ use App\Models\Anime;
 
 class AnimeSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
-    public function run(): void
+    public function run()
     {
         Anime::create([
             'title' => 'Attack on Titan',
             'genre' => 'Action, Dark Fantasy',
-            'episodes' => 88
+            'episodes' => 88,
         ]);
 
         Anime::create([
